@@ -1,17 +1,18 @@
-
 Atomic: 
 	-- all or nothing, either commit or abort.
+	-- refers to indivisible and irreducible operations.
+	-- e.g: transfer money from account A to B.
 
 Consistency: 
 	-- A transaction is valid for defined rules, constraints etc.
 	-- On completion of a transaction database is left in valid state.
 
 Isolation: 
-	-- concurrent transaction must be isolcated from each other.
+	-- concurrent transaction must be isolated from each other.
 	-- if two users are performing some operation on an entity
 	   then changes of one should not be clobbered with other, for 
 	   that to happen each transactions are run sequentially.
 	-- Concurrency control provides isolation.
 
 Durability:
-	-- Once a transaction is commited, updates are never lost in case of power loss, crashes etc.
+	-- Once a transaction is commited, changes are durable and never lost in case of power loss, crashes etc.
