@@ -1,0 +1,2 @@
+# sql-kata
+Learning sql
