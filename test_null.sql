@@ -8,8 +8,10 @@ INSERT INTO (a, b) VALUES ();
 INSERT INTO defs  ( ) VALUES  ();
 
 SELECT * from defs;
+/*
 +------+------+
 | a    | b    |
 +------+------+
 | NULL | NULL |
 +------+------+
+*/
