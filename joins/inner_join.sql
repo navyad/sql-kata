@@ -4,3 +4,4 @@ INNER JOIN user as table2
 ON table2.id = table1.user_id and table1.phone_number='8495830644'
 INNER join gstins as table3
 ON table3.associated_user_id = table1.id
+Order By table1.created_at DESC
